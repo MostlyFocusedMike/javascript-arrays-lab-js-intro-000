@@ -26,5 +26,7 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function prependKitten(name) {
-  
+  let new_kittens = kittens.slice();
+  new_kittens.unshift(name);
+  return new_kittens;
 }
