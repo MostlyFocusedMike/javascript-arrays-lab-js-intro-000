@@ -37,6 +37,12 @@ function removeKitten() {
   return new_kittens;
 }
 
+function removeLastKitten() {
+  let new_kittens = kittens.slice();
+  new_kittens.pop();
+  return new_kittens;
+}
+
 function removeFirstKitten(){
   let new_kittens = kittens.slice();
   new_kittens.shift();
