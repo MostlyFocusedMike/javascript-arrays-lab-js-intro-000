@@ -24,3 +24,7 @@ function appendKitten(name) {
 function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
+
+function prependKitten(name) {
+  
+}
