@@ -31,13 +31,13 @@ function prependKitten(name) {
   return new_kittens;
 }
 
-function removeKitten(name) {
+function removeKitten() {
   let new_kittens = kittens.slice();
   new_kittens.pop();
   return new_kittens;
 }
 
-function removeFirstKitten()(name) {
+function removeFirstKitten(){
   let new_kittens = kittens.slice();
   new_kittens.shift();
   return new_kittens;
