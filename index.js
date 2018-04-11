@@ -30,3 +30,9 @@ function prependKitten(name) {
   new_kittens.unshift(name);
   return new_kittens;
 }
+
+function removeKitten(name) {
+  let new_kittens = kittens.slice();
+  new_kittens.unshift(name);
+  return new_kittens;
+}
